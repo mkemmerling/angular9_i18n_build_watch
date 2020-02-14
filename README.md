@@ -23,8 +23,6 @@ When Ivy is disabled in tsconfig.json the SourceMap is built as expected. The pr
 
 ## 🔬 Minimal Reproduction
 
-LINK
-
 This is just a minimal 'repro-app' with i18n configuration as described in the Angular docs.
 
 To reproduce the error run `ng build --configuration=de --watch` and inspect the empty main.js.map SourceMap in dist/repro-app/de.
